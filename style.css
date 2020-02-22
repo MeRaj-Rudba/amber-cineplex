@@ -1,0 +1,239 @@
+
+body{
+  margin: 0;
+  background: #222;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+
+}
+.container1{
+    width: 80%;
+    margin: 0,auto;
+}
+
+header{
+  background: #F2CA04;
+
+}
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo{
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+}
+nav{
+  float: right;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 50px;
+  padding-top: 35px;
+  position: relative;
+}
+nav ul li a{
+  color: #1E2326;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav ul li a:hover{
+  color:white;
+}
+nav ul li a:before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #1E2326;
+  position: absolute;
+  border-radius: 55px;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+nav ul li a:hover:before{
+
+  width: 100%;
+
+}
+
+
+.whole {
+  /* The image used */
+  background-image: url("images/bgLogin2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.login{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 450px;
+  height: 650px;
+  background-color: #1E2326;
+  border-radius:25px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
+
+}
+.topHalf{
+  vertical-align: top;
+  background-color: red;
+  background-image: url("images/topHalf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.botHalf{
+  vertical-align: bottom;
+  background-color:#1E2326;
+  width: 100%;
+  height: 60%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.logInTitle{
+  font-family: 'Josefin Slab', serif;
+  margin-bottom: 5px;
+  color: #F2CA04;
+  font-size: 35px;
+}
+.inputFeild{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #F2CA04;
+  width: 100%;
+  background-color: #1E2326;
+  border: none;
+  border-bottom: 2px solid #F2CA04;
+}
+.signUpText{
+  font-family: 'Josefin Slab', serif;
+  color: #F2CA04;
+  font-size: 22px;
+}
+.error{
+  height: 15px;
+  font-family: 'Josefin Slab', serif;
+  color: #F2CA04;
+  font-size: 15px;
+
+}
+table{
+  border-spacing:0 15px;
+
+}
+
+button{
+  border-radius: 10px;
+  border: none;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  background-color: #F2CA04;
+  color: #1E2326;
+  padding: 10px;
+  text-align: center;
+
+  display: inline-block;
+
+
+}
+
+
+
+
+
+/*custom CheckBox*/
+/* Customize the label (the container) */
+.remember {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: 'Josefin Slab', serif;
+  color: #F2CA04;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.remember input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #F2CA04;
+}
+
+/* On mouse-over, add a grey background color */
+.remember:hover input ~ .checkmark {
+  background-color: #F2CA04;
+}
+
+/* When the checkbox is checked, add a blue background */
+.remember input:checked ~ .checkmark {
+  background-color: #F2CA04;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.remember input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.remember .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #1E2326;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
