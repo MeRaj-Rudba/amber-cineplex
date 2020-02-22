@@ -1,7 +1,21 @@
 
 body{
   margin: 0;
-  background: #222;
+  /* The image used */
+  background-image: url("images/bgLogin2.jpg");
+
+  /* Full height */
+  height: 100%;
+  
+  margin-bottom: 150px;
+  
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
 
@@ -68,20 +82,7 @@ nav ul li a:hover:before{
 }
 
 
-.whole {
-  /* The image used */
-  background-image: url("images/bgLogin2.jpg");
 
-  /* Full height */
-  height: 100%;
-
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 .login{
   position: absolute;
   margin: auto;
@@ -90,7 +91,8 @@ nav ul li a:hover:before{
   bottom: 0;
   left: 0;
   width: 450px;
-  height: 75%;
+  min-width: 450px;
+  height: 80%;
   background-color: #1E2326;
   border-radius:25px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
@@ -98,7 +100,7 @@ nav ul li a:hover:before{
 }
 .topHalf{
   vertical-align: top;
-  background-color: red;
+  
   background-image: url("images/topHalf.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -163,10 +165,6 @@ button{
 
 }
 
-
-
-
-
 /*custom CheckBox*/
 /* Customize the label (the container) */
 .remember {
@@ -183,7 +181,6 @@ button{
   -ms-user-select: none;
   user-select: none;
 }
-
 /* Hide the browser's default checkbox */
 .remember input {
   position: absolute;
@@ -240,12 +237,15 @@ button{
 .shadowBox{
   padding: 20px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
+  background-color: #1E2326;
+  border-radius:25px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
-  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  width: 500px;
+  min-width: 500px;
   
 }
 h2{
@@ -266,8 +266,4 @@ footer label{
   color: #1E2326;
   
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%) };
-}
+  

@@ -53,9 +53,7 @@
      <title>Log In</title>
    </head>
    <body>
-     <div class="whole">
-
-       <div class="login">
+     <div class="login">
           <div class="topHalf">
 
           </div>
@@ -120,8 +118,8 @@
               </div>
             </form>
           </div>
-       </div>
-     </div>
+    </div>
+     
 
    </body>
  </html>
