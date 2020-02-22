@@ -40,12 +40,27 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input class="inputFeild" type="email" name="rgEmail" placeholder="Your Email">
+                <input class="inputFeild" type="date" name="rgDOB" placeholder="Your Birthday">
               </td>
             </tr>
             <tr>
               <td colspan="2">
                 <input  class="inputFeild" type="password" name="rgPass" placeholder="Your Password">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input  class="inputFeild" type="password" name="rgPassConfirm" placeholder="Confirm Password">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input class="inputFeild" type="email" name="rgEmail" placeholder="Your Email">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input  class="inputFeild" type="text" name="rgPhone" placeholder="Your Phone Number">
               </td>
             </tr>
           </table>
