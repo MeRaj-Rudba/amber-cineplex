@@ -90,7 +90,7 @@ nav ul li a:hover:before{
   bottom: 0;
   left: 0;
   width: 450px;
-  height: 650px;
+  height: 75%;
   background-color: #1E2326;
   border-radius:25px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
@@ -155,7 +155,7 @@ button{
   font-weight: bold;
   background-color: #F2CA04;
   color: #1E2326;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 
   display: inline-block;
@@ -236,4 +236,38 @@ button{
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.shadowBox{
+  padding: 20px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 40%;
+  
+}
+h2{
+  color: white;
+  font-size: 50px;
+}
+.highlighter{
+  font-weight: bold;
+  color:#F2CA04;
+}
+footer{
+  text-align: center;
+  position: relative;
+  height: 100px;
+  background-color: #F2CA04;
+}
+footer label{
+  color: #1E2326;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) };
 }
